@@ -3,6 +3,8 @@
 ## Overview
 This project provides a Python function `create_svg_content_with_curve` that converts a grayscale image into a single-path SVG artwork. The generated SVG uses smooth quadratic Bézier curves to create a visually appealing representation of the image, where pixel intensities influence sinusoidal wave patterns.
 
+please see: https://github.com/innolab-mn/single_line_svg/blob/main/Single_rect_line.ipynb
+
 ## Features
 - **Input**: Accepts a 2D NumPy array (`image_gray`) representing a grayscale image.
 - **Output**: Generates an SVG file with a single continuous path that approximates sinusoidal segments.
